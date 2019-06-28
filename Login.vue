@@ -3,7 +3,7 @@
     <div class="tipslogin"> 
       <span>你需要登录才能继续访问</span>
       <span class="closeSpan">关闭</span>
-    </div>
+    </div>   
     <!-- 淘宝logo图片 -->
     <div class="imgDiv">
       <img src="../../assets/tblogo.png" class="logo">
