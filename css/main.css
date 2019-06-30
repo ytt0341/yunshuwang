@@ -1,0 +1,7 @@
+ul{
+    list-style: none;
+}
+a,img{
+    text-decoration: none;
+    outline: none;
+}

@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/qbfenlei.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+            .carousel-indicators li{
+                width:15px;  height:15px;
+                background-color:#fff;
+                margin-left:6px;
+                margin-right:6px;
+                border-radius:50%;
+            }
+            .carousel-indicators .active {
+                background-color: #0aa1ed;
+            }
+            /*重写左右箭头的样式*/
+            .carousel-control-next,
+            .carousel-control-prev{
+                width:4%;height:20%;
+                background-color:#aaa;
+                top:40%;
+                border-radius:0.25rem;
+            }
+        </style>
+</head>
+<body>
+    <!-- 头 -->
+    <header>
+        <iframe src="header.html" scrolling="no" frameborder="0" class="my_header"></iframe>
+    </header>
+    <!-- 头部下端 -->
+    <div class="bottom">
+            <ul class="nav">
+              <li><a class="nav_1" href="qbfenlei.html">全部分类</a></li>
+              <li><a href="shouye.html">首页</a></li>
+              <li><a href="details.html">图书</a></li>
+              <li><a href="details.html">世界购</a></li>
+              <li><a href="details.html">精彩河南</a></li>
+              <li><a href="details.html">万乡食尚馆</a></li>
+              <li><a href="details.html">数码馆</a></li>
+              <li><a href="details.html">家用电器</a></li>
+              <li><a href="details.html">云书讲堂</a></li>
+            </ul>
+    </div>
+    <div class="img_top">
+        <img src="img/575e84995690a.jpg" alt="">
+    </div>
+
+    <!-- 内容 -->
+        <div class="container_1">
+            <div class="shop_nav">
+                <a href="details.html">店铺首页</a>
+                <a href="details.html"><span>郑州馆<img src="img/jche_tit_zhan.png" alt=""></span></a>
+            </div>
+    <!-- 左边边框内容 -->        
+            <div class="left_b">
+                  <div class="jianjie">
+                     <h3>郑州馆</h3>
+                     <h4>公司名称：河南省郑州市新华书店有限公司</h4>
+                     <h4>公司地址：河南郑州金水区郑州市金水区西太康路19号郑州市购书中心</h4>
+                     <h4>联系电话：0371—66256101</h4>
+                  </div>
+                  <div class="search">
+                      <input type="text">
+                      <input type="submit" value="店内搜索">
+                  </div>
+                  <div class="fenlei">
+                      <div class="fenlei_top">
+                          <a href="details.html">产品分类</a>
+                      </div>
+                      <div class="fenlei_2">
+                          <ul>
+                              <li><a href="details.html">家用电器</a></li>
+                              <li class="bg"><a href="details.html">车友装备</a></li>
+                              <li><a href="details.html">学习用品</a></li>
+                              <li class="bg"><a href="details.html">体育用品</a></li>
+                              <li><a href="details.html">生活食品</a></li>
+                              <li class="bg"><a href="details.html">家居生活</a></li>
+                              <li><a href="details.html">手机数码</a></li>
+                              <li class="bg"><a href="details.html">查看所有分类</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="rexiao">
+                    <div class="rexiao_top">
+                        <h3>热销排行</h3>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/product1.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">晋韵堂 清 无涂层养生铸铁壶铁茶壶生铁烧水煮茶壶茶具</a>
+                        <div class="price">
+                            <div>￥468.0</div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/product2.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">正品希诺 真空杯保温杯235ml 不锈钢杯 XN-5601</a>
+                        <div class="price">
+                            <div>￥188.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/product3.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">正品 希诺 真空保温杯XN-8601 口杯水杯235ml</a>
+                        <div class="price">
+                            <div>￥188.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/product4.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">晋韵堂铁壶 喜从天降 纯手工 泽州生铁砂铁煮茶壶煮水壶茶壶</a>
+                        <div class="price">
+                            <div>￥1280.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/product5.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">新品希诺320ml 蜜蜂保温杯 创意时尚女士办公杯 可爱学生大肚杯子XN-</a>
+                        <div class="price">
+                            <div>￥228.0</div>
+                        </div> 
+                    </div>
+                  </div>
+            </div>
+     <!-- 右边边框内容 -->
+     <div class="right_b">
+        <!-- 轮播 -->
+        <div class="container" style="padding:0">
+                <div id="demo" class="carousel" data-ride="carousel">
+                     <!-- 轮播图片-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img  height="440px" width="945px" src="img/lunbo1.gif"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img height="440px" width="945px"  src="img/lunbo2.jpg"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img  height="440px" width="945px" src="img/lunbo3.jpg"/>
+                        </div>
+                        <div class="carousel-item">
+                            <img  height="440px" width="945px" src="img/lunbo4.jpg"/>
+                        </div>
+                    </div>
+                    <!-- 左右箭头-->
+                    <a data-slide="next" href="#demo" class="carousel-control-next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                    <a data-slide="prev" href="#demo" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <!-- 3.轮播指示器-->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- 热销商品 -->
+        <div class="hot_product">
+           <div class="red_block">
+           </div>
+           <span>热卖特产</span>
+           <div class="product_list">
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p1.jpg" alt=""></a>
+                </div>
+                <a href="details.html">晋韵堂 清 无涂层养生铸铁壶铁茶壶生铁烧水煮茶壶茶具</a>
+                <div class="price">
+                    <div>￥468.0</div>
+                </div>
+            </div>
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p2.png" alt=""></a>
+                </div>
+                <a href="details.html">晋韵堂 木桶 无涂层养生铸铁壶铁茶壶生铁烧水煮茶壶茶具</a>
+                <div class="price">
+                    <div>￥360.0</div>
+                </div> 
+            </div>
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p3.jpg" alt=""></a>
+                </div>
+                <a href="details.html">晋韵堂铁壶 喜从天降 纯手工 泽州生铁砂铁煮茶壶煮水壶茶壶</a>
+                <div class="price">
+                    <div>￥1280.0</div>
+                </div> 
+            </div>
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p4.png" alt=""></a>
+                </div>
+                <a href="details.html">晋韵堂铁壶 喜从天降 纯手工 泽州生铁砂铁煮茶壶煮水壶茶壶</a>
+                <div class="price">
+                    <div>￥1280.0</div>
+                </div> 
+            </div>
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p5.jpg" alt=""></a>
+                </div>
+                <a href="details.html">正品希诺 真空杯保温杯235ml 不锈钢杯 XN-5601</a>
+                <div class="price">
+                    <div>￥188.0</div>
+                </div> 
+            </div>
+            <div class="product">
+                    <div>
+                        <a href="details.html"><img src="img/big_p6.png" alt=""></a>
+                    </div>
+                    <a href="details.html">正品 希诺 真空保温杯XN-8601 口杯水杯235ml</a>
+                    <div class="price">
+                        <div>￥188.0</div>
+                    </div> 
+                </div>
+            <div class="product">
+                <div>
+                    <a href="details.html"><img src="img/big_p7.jpg" alt=""></a>
+                </div>
+                <a href="details.html">希诺保温杯300ml 便携不锈钢水杯 时尚创意带滤网茶水杯 XN-5705</a>
+                <div class="price">
+                    <div>￥198.0</div>
+                </div> 
+            </div>
+            <div class="product">
+                    <div>
+                        <a href="details.html"><img src="img/big_p8.jpg" alt=""></a>
+                    </div>
+                    <a href="details.html">新品希诺320ml 蜜蜂保温杯 创意时尚女士办公杯 可爱学生大肚杯子XN-</a>
+                    <div class="price">
+                        <div>￥228.0</div>
+                    </div> 
+                </div>
+           </div>
+        </div>
+        <!-- 优选特产 -->
+        <div class="superior">
+            <h3>优选特产</h3>
+        </div>
+        <div class="product_list">
+                <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y1.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">日本美浓烧樱花陶瓷碗碟盘子套装间取樱10头餐具组</a>
+                        <div class="price">
+                            <div>￥459.0</div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y2.png" alt=""></a>
+                        </div>
+                        <a href="details.html">日本古染唐草10头餐具组</a>
+                        <div class="price">
+                            <div>￥459.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y3.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">Kindle Voyage 亚马逊电子书阅读器</a>
+                        <div class="price">
+                            <div>￥1499.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y4.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">铭塔 磁力建构片 60片装 儿童磁力片磁性 益智积木</a>
+                        <div class="price">
+                            <div>￥176.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y5.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">冠雅 led护眼台灯卡通阅读小学生儿童学习可调光宿舍创意 LA-F308 白</a>
+                        <div class="price">
+                            <div>￥199.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_y6.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">冠雅 led护眼台灯卡通阅读小学生儿童学习可调光宿舍创意 LA-F308 粉</a>
+                            <div class="price">
+                                <div>￥199.0</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_y7.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">冠雅 led护眼卡通台灯阅读学生儿童学习触摸调光宿舍台灯 F328 白色</a>
+                        <div class="price">
+                            <div>￥199.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_y8.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">冠雅LED 护眼卡通台灯阅读学生儿童学习调光 F328黄色</a>
+                            <div class="price">
+                                <div>￥199.0</div>
+                            </div> 
+                        </div>
+        </div>
+     </div>
+         <!-- 郑州新华书店会员卡 -->
+           <div class="p_vip">
+               <div>
+                    <a href="details.html"><img src="img/vip_1.jpg" alt=""></a>
+               </div>
+               <div>
+                    <a href="details.html"><img src="img/vip_2.jpg" alt=""></a>
+               </div>
+               <div>
+                    <a href="details.html"><img src="img/vip_3.jpg" alt=""></a>
+               </div>
+           </div>
+           <div style="width:10px; height:10px; clear:both;"></div>
+        <!-- 特色推荐 -->
+        <div class="specialty">
+                <h3>特色推荐</h3>
+        </div>
+        <div class="product_list2">
+                <div class="product" style="border-left:1px solid #DADADA">
+                        <div>
+                            <a href="details.html"><img src="img/big_p9.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">冠雅 led护眼台灯卡通阅读小学生儿童学习可调光宿舍创意 LA-F308 粉</a>
+                        <div class="price">
+                            <div>￥199.0</div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p10.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">冠雅 LED护眼灯 高端商务学习办公台灯长臂折叠床头卧室灯 K218</a>
+                        <div class="price">
+                            <div>￥399.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p11.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">冠雅 LED护眼灯正品儿童学生学习可调光卡通可爱 LA-F508 长颈鹿台灯 </a>
+                        <div class="price">
+                            <div>￥299.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p12.png" alt=""></a>
+                        </div>
+                        <a href="details.html">飞利浦 蒸汽挂烫机GC562/38</a>
+                        <div class="price">
+                            <div>￥1599.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p13.png" alt=""></a>
+                        </div>
+                        <a href="details.html">飞利浦 电动剃须刀S530/12</a>
+                        <div class="price">
+                            <div>￥599.0</div>
+                        </div> 
+                    </div>
+                    <div class="product" style="border-left:1px solid #DADADA">
+                            <div>
+                                <a href="details.html"><img src="img/big_p14.png" alt=""></a>
+                            </div>
+                            <a href="details.html">飞利浦 净颜焕采洁肤仪S5275/00</a>
+                            <div class="price">
+                                <div>￥1799.0</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p15.png" alt=""></a>
+                        </div>
+                        <a href="details.html">飞利浦 榨汁机HR1876/70</a>
+                        <div class="price">
+                            <div>￥2499.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p16.png" alt=""></a>
+                            </div>
+                            <a href="details.html">苏泊尔 球釜全景视窗饭煲28-75</a>
+                            <div class="price">
+                                <div>￥599.0</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p17.png" alt=""></a>
+                            </div>
+                            <a href="details.html">苏泊尔 煎烤机T-130</a>
+                            <div class="price">
+                                <div>￥299.0</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p18.png" alt=""></a>
+                            </div>
+                            <a href="details.html">九阳榨汁机JYZ-B550</a>
+                            <div class="price">
+                                <div>￥159.0</div>
+                            </div> 
+                        </div>
+        </div>
+        <div style="width:10px; height:10px; clear:both;"></div>
+        <!-- 美妆洗护 -->
+        <div class="specialty">
+                <h3>美妆洗护</h3>
+        </div>
+        <div class="product_list2">
+                  <div class="lunbo2">
+                      <!-- 轮播图位置  -->
+                      <div class="container" style="padding:0">
+                        <div id="demo1" class="carousel" data-ride="carousel">
+                             <!-- 轮播图片-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="720px" height="298px"  src="img/mzlb1.jpg"/>
+                                </div>
+                                <div class="carousel-item">
+                                    <img width="720px" height="298px"  src="img/mzlb2.jpg"/>
+                                </div>
+                            </div>
+                            <!-- 左右箭头-->
+                            <a data-slide="next" href="#demo1" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <a data-slide="prev" href="#demo1" class="carousel-control-prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <!-- 3.轮播指示器-->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo1" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo1" data-slide-to="1"></li>
+                            </ul>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p19.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">碧浪洁护如新洗衣液1kg（自然清香型，高效加酶配方洗衣液）</a>
+                        <div class="price">
+                            <div>¥20.30</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p20.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">佳洁士 3D炫白双效牙膏 持久清凉薄荷 7折优惠装 180g 盒装</a>
+                        <div class="price">
+                            <div>￥10.50</div>
+                        </div> 
+                    </div>
+                    <div class="product_list3">
+                            <a href="details.html">佳洁士</a>
+                            <a href="details.html">汰渍</a>
+                            <a href="details.html">护舒宝</a>
+                            <a href="details.html">舒肤佳</a>
+                            <a href="details.html">玉兰油</a>
+                            <a href="details.html">碧浪</a>
+                            <a href="details.html">潘婷</a>
+                            <a href="details.html">海飞丝</a>
+                            <a href="details.html">飘柔</a>
+                            <a href="details.html">丝蓓绮</a>
+                            <a href="details.html">帮宝适</a>
+                            <a href="details.html">洗衣皂</a>
+                         </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p21.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">蓝月亮 健康洗手液 野菊花清爽洗手液 500g*2 超值大优惠装</a>
+                        <div class="price">
+                            <div>￥19.99</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p22.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">舒肤佳 香皂 金银花/菊花自然爽洁型 115g 盒装</a>
+                            <div class="price">
+                                <div>￥4.90</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p23.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">白猫 经典配方洗洁精 家庭装 清爽柠檬香型 2kg 桶装</a>
+                            <div class="price">
+                                <div>￥16.00</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p24.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">飘柔 橄榄油莹润 洗发露 400ml</a>
+                            <div class="price">
+                                <div>￥23.40</div>
+                            </div> 
+                        </div>
+        </div>
+        <div style="width:10px; height:10px; clear:both;"></div>
+        <!-- 进口商品 -->
+        <div class="specialty">
+                <h3>进口商品</h3>
+        </div>
+        <div class="product_list2">
+                  <div class="lunbo2">
+                      <!-- 轮播图位置  -->
+                      <div class="container" style="padding:0">
+                        <div id="demo2" class="carousel" data-ride="carousel">
+                             <!-- 轮播图片-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="720px" height="298px"  src="img/7-160510102A50-L.png"/>
+                                </div>
+                            </div>
+                            <!-- 左右箭头-->
+                            <a data-slide="next" href="#demo2" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <a data-slide="prev" href="#demo2" class="carousel-control-prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <!-- 3.轮播指示器-->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                            </ul>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p25.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">西班牙 阿果萨 特级 初榨橄榄油 750ml 瓶装</a>
+                        <div class="price">
+                            <div>￥78.0</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p26.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">西班牙 玛莎蜜 起泡葡萄酒 甜型高泡葡萄酒 红标 5.5%vol 750ml 瓶装</a>
+                        <div class="price">
+                            <div>￥298.0</div>
+                        </div> 
+                    </div>
+                    <div class="product_list3">
+                            <a href="details.html">爱他美</a>
+                            <a href="details.html">阿果萨</a>
+                            <a href="details.html">维他多</a>
+                            <a href="details.html">纳世凯尔</a>
+                            <a href="details.html">张君雅</a>
+                            <a href="details.html">玛莎蜜</a>
+                            <a href="details.html">麦塔卡</a>
+                            <a href="details.html">孔策尔</a>
+                            <a href="details.html">大哥</a>
+                            <a href="details.html">可口</a>
+                            <a href="details.html">百力佳</a>
+                            <a href="details.html">杰事</a>
+                            <a href="details.html">星巴克</a>
+                            <a href="details.html">赫拉</a>
+                         </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p27.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">德国原装进口 爱氏晨曦 纯牛奶 全脂牛奶 超高温灭菌 1L 盒装</a>
+                        <div class="price">
+                            <div>￥13.80</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p28.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">新加坡 可口牌 快熟面 油炸方便面 海鲜味 90g 盒装</a>
+                            <div class="price">
+                                <div>￥9.80</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p29.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">泰国 乐鱼 番茄汁鲭鱼罐头 155g 罐装</a>
+                            <div class="price">
+                                <div>￥11.80</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p30.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">印度尼西亚 瑞丹多牌 威化卷心酥 注心饼干 巧克力味 400g 罐装</a>
+                            <div class="price">
+                                <div>￥48.00</div>
+                            </div> 
+                        </div>
+        </div>
+        <div style="width:10px; height:10px; clear:both;"></div>
+        <!-- 家用电器 -->
+        <div class="specialty">
+                <h3>家用电器</h3>
+        </div>
+        <div class="product_list2">
+                  <div class="lunbo2">
+                      <!-- 轮播图位置  -->
+                      <div class="container" style="padding:0">
+                        <div id="demo3" class="carousel" data-ride="carousel">
+                             <!-- 轮播图片-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="720px" height="298px"  src="img/14-150F616495G05.jpg"/>
+                                </div>
+                            </div>
+                            <!-- 左右箭头-->
+                            <a data-slide="next" href="#demo3" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <a data-slide="prev" href="#demo3" class="carousel-control-prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <!-- 3.轮播指示器-->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo3" data-slide-to="0" class="active"></li>
+                            </ul>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p31.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">苏泊尔(Supor) SJYZ13-200 立式挤压原汁机 榨汁神器 咖啡色</a>
+                        <div class="price">
+                            <div>￥929.00</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p32.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">海尔(Haier) ES60H-Q1(ZE) 60升电热水器 断电记忆 机械操控 三档功</a>
+                        <div class="price">
+                            <div>￥1189.00</div>
+                        </div> 
+                    </div>
+                    <div class="product_list3">
+                            <a href="details.html">格力/大松</a>
+                            <a href="details.html">九阳</a>
+                            <a href="details.html">飞利浦</a>
+                            <a href="details.html">海尔</a>
+                            <a href="details.html">海信</a>
+                            <a href="details.html">苏泊尔</a>
+                         </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p33.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">海尔(Haier) XQG70-BX12288Z 7公斤 HPM芯平衡滚筒洗衣机 电磁门锁安全</a>
+                        <div class="price">
+                            <div>￥3399.00</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p34.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">海尔(Haier) KFR-72LW/08GDD23A 帝樽3匹变频柜机 云书网自营</a>
+                            <div class="price">
+                                <div>￥7199.00</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p35.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">海尔(Haier) BCD-185TNGK 185升两门直冷定频冰箱 彩晶时尚靓丽外观 </a>
+                            <div class="price">
+                                <div>￥1498.00</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p36.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">海尔(Haier) LE32R31 32英寸液晶网络平板电视 安卓智能系统 无线WIFI</a>
+                            <div class="price">
+                                <div>￥1269.00</div>
+                            </div> 
+                        </div>
+        </div>
+        <div style="width:10px; height:10px; clear:both;"></div>
+        <!-- 手机通讯 -->
+        <div class="specialty">
+                <h3>手机通讯</h3>
+        </div>
+        <div class="product_list2">
+                  <div class="lunbo2">
+                      <!-- 轮播图位置  -->
+                      <div class="container" style="padding:0">
+                        <div id="demo4" class="carousel" data-ride="carousel">
+                             <!-- 轮播图片-->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img width="720px" height="298px"  src="img/sjtx1.jpg"/>
+                                </div>
+                                <div class="carousel-item">
+                                    <img width="720px" height="298px"  src="img/sjtx2.jpg"/>
+                                </div>
+                            </div>
+                            <!-- 左右箭头-->
+                            <a data-slide="next" href="#demo4" class="carousel-control-next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                            <a data-slide="prev" href="#demo4" class="carousel-control-prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <!-- 3.轮播指示器-->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo4" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo4" data-slide-to="1"></li>
+                            </ul>
+                        </div>
+                    </div>
+                   </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p37.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">尼康（Nikon） D5300 单反相机</a>
+                        <div class="price">
+                            <div>￥3399.00</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p38.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">金士顿（Kingston） 金属U盘 银色</a>
+                        <div class="price">
+                            <div>￥29.90</div>
+                        </div> 
+                    </div>
+                    <div class="product_list3 ">
+                            <a href="details.html">苹果</a>
+                            <a href="details.html">三星</a>
+                            <a href="details.html">华为</a>
+                            <a href="details.html">诺基亚</a>
+                            <a href="details.html">尼康</a>
+                            <a href="details.html">佳能</a>
+                            <a href="details.html">飞利浦</a>
+                            <a href="details.html">OPPO</a>
+                            <a href="details.html">vivo</a>
+                            <a href="details.html">联想</a>
+                            <a href="details.html">戴尔</a>
+                            <a href="details.html">金士顿</a>
+                            <a href="details.html">小米</a>
+                            <a href="details.html">Kindle</a>
+                            <a href="details.html">魅族</a>
+                            <a href="details.html">美图</a>
+                         </div>
+                    <div class="product">
+                        <div>
+                            <a href="details.html"><img src="img/big_p39.jpg" alt=""></a>
+                        </div>
+                        <a href="details.html">联想(Lenovo) G40-80 14英寸笔记本电脑游戏本 I5-5200U 4G 500G 2G独</a>
+                        <div class="price">
+                            <div>￥3488.00</div>
+                        </div> 
+                    </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p40.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">Kindle Paperwhite 全新升级版6英寸护眼非反光电子墨水触控显示屏 </a>
+                            <div class="price">
+                                <div>￥958.00</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p41.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">OPPO R9plus 全网通4G手机 4G运存 64G储存 6.0英寸 双卡双待</a>
+                            <div class="price">
+                                <div>￥2999.0</div>
+                            </div> 
+                        </div>
+                    <div class="product">
+                            <div>
+                                <a href="details.html"><img src="img/big_p42.jpg" alt=""></a>
+                            </div>
+                            <a href="details.html">vivo X7Plus 全网通 移动联通电信4G手机 4G运存 64G储存 5.7英寸 双</a>
+                            <div class="price">
+                                <div>￥2798.00</div>
+                            </div> 
+                        </div>
+        </div>
+  </div>
+
+    <!-- 尾 -->
+    <footer>
+        <iframe src="footer.html" scrolling="no" frameborder="0" class="my_footer"></iframe>
+    </footer>
+    
+</body>
+</html>
